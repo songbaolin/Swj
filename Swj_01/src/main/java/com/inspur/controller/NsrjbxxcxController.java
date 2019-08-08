@@ -1,0 +1,22 @@
+package com.inspur.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.inspur.service.impl.NsrjbxxcxServiceImpl;
+
+@RestController
+@RequestMapping("/zrrjbxxcx")
+public class NsrjbxxcxController {
+
+	 @Autowired
+	 private NsrjbxxcxServiceImpl nsrjbxxcxServiceImpl;
+	 @RequestMapping(value={"/SFZH"}, method={org.springframework.web.bind.annotation.RequestMethod.GET})
+	  public List FrxxcxController(String SFZH)
+	  {
+	    return this.nsrjbxxcxServiceImpl.getNsrjbxxcxInfServiceInf(SFZH);
+	  }
+}

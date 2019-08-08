@@ -1,0 +1,546 @@
+2019-06-19 15:38:26.110  INFO 1740 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 1740 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 15:38:26.118  INFO 1740 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 15:38:26.245  INFO 1740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-19 15:38:26.246  INFO 1740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-19 15:38:29.807  WARN 1740 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 15:38:31.362  INFO 1740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-06-19 15:38:31.425  INFO 1740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 15:38:31.426  INFO 1740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 15:38:31.447  INFO 1740 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 15:38:31.448  INFO 1740 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 15:38:31.448  INFO 1740 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 15:38:31.449  INFO 1740 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 15:38:32.503  INFO 1740 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 15:38:32.657  INFO 1740 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 15:38:32.658  INFO 1740 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6411 ms
+2019-06-19 15:38:33.450  INFO 1740 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 15:38:34.043  WARN 1740 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 15:38:34.192  INFO 1740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 15:38:34.309  INFO 1740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/fyswj'
+2019-06-19 15:38:34.315  INFO 1740 --- [restartedMain] com.Swj01Application                     : Started Swj01Application in 9.04 seconds (JVM running for 10.141)
+2019-06-19 15:38:38.284  INFO 1740 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-19 15:38:38.285  INFO 1740 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-19 15:38:38.300  INFO 1740 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-06-19 15:38:44.011  INFO 1740 --- [RMI TCP Connection(2)-192.168.217.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-19 15:38:44.030  INFO 1740 --- [RMI TCP Connection(2)-192.168.217.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 15:39:55.500  INFO 5228 --- [main] com.Swj01ApplicationTests                : Starting Swj01ApplicationTests on USER-20180922CY with PID 5228 (started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 15:39:55.508  INFO 5228 --- [main] com.Swj01ApplicationTests                : No active profile set, falling back to default profiles: default
+2019-06-19 15:39:59.452  WARN 5228 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 15:40:01.548  INFO 5228 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 15:40:02.789  WARN 5228 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 15:40:03.054  INFO 5228 --- [main] com.Swj01ApplicationTests                : Started Swj01ApplicationTests in 8.277 seconds (JVM running for 9.632)
+2019-06-19 15:40:03.536  INFO 5228 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 15:44:33.570  INFO 2528 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 2528 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 15:44:33.576  INFO 2528 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 15:44:33.680  INFO 2528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-19 15:44:33.681  INFO 2528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-19 15:44:37.307  WARN 2528 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 15:44:38.789  INFO 2528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-06-19 15:44:38.846  INFO 2528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 15:44:38.847  INFO 2528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 15:44:38.877  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 15:44:38.877  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 15:44:38.878  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 15:44:38.878  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 15:44:39.929  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 15:44:40.125  INFO 2528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 15:44:40.125  INFO 2528 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6443 ms
+2019-06-19 15:44:40.886  INFO 2528 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 15:44:41.453  WARN 2528 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 15:44:41.603  INFO 2528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 15:44:41.720  INFO 2528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/fyswj'
+2019-06-19 15:44:41.725  INFO 2528 --- [restartedMain] com.Swj01Application                     : Started Swj01Application in 8.856 seconds (JVM running for 9.955)
+2019-06-19 15:45:22.190  INFO 2528 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 15:45:22.855  INFO 2528 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 2528 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 15:45:22.856  INFO 2528 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 15:45:26.273  WARN 2528 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 15:45:26.596  INFO 2528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-06-19 15:45:26.598  INFO 2528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 15:45:26.598  INFO 2528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 15:45:26.599  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 15:45:26.600  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 15:45:26.600  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 15:45:26.601  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 15:45:26.602  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 15:45:26.655  INFO 2528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 15:45:26.655  INFO 2528 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3793 ms
+2019-06-19 15:45:26.896  INFO 2528 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 15:45:27.098  WARN 2528 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 15:45:27.142  INFO 2528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 15:45:27.266  INFO 2528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/fyswj'
+2019-06-19 15:45:27.300  INFO 2528 --- [restartedMain] com.Swj01Application                     : Started Swj01Application in 4.51 seconds (JVM running for 55.529)
+2019-06-19 15:45:27.305  INFO 2528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-19 15:45:28.074  INFO 5500 --- [main] com.Swj01ApplicationTests                : Starting Swj01ApplicationTests on USER-20180922CY with PID 5500 (started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 15:45:28.078  INFO 5500 --- [main] com.Swj01ApplicationTests                : No active profile set, falling back to default profiles: default
+2019-06-19 15:45:33.752  WARN 5500 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 15:45:36.600  INFO 5500 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 15:45:39.395  WARN 5500 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 15:45:39.676  INFO 5500 --- [main] com.Swj01ApplicationTests                : Started Swj01ApplicationTests in 12.876 seconds (JVM running for 17.497)
+2019-06-19 15:45:40.331  INFO 5500 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 15:47:41.212  INFO 5636 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 5636 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 15:47:41.218  INFO 5636 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 15:47:41.316  INFO 5636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-19 15:47:41.316  INFO 5636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-19 15:47:44.591  WARN 5636 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 15:47:45.976  INFO 5636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-06-19 15:47:46.027  INFO 5636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 15:47:46.028  INFO 5636 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 15:47:46.049  INFO 5636 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 15:47:46.050  INFO 5636 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 15:47:46.050  INFO 5636 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 15:47:46.051  INFO 5636 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 15:47:47.111  INFO 5636 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 15:47:47.363  INFO 5636 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 15:47:47.363  INFO 5636 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6047 ms
+2019-06-19 15:47:48.132  INFO 5636 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 15:47:48.702  WARN 5636 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 15:47:48.836  WARN 5636 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-06-19 15:47:48.915 ERROR 5636 --- [restartedMain] org.apache.catalina.util.LifecycleBase   : Failed to start component [Connector[HTTP/1.1-8081]]
+
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) [spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at com.Swj01Application.main(Swj01Application.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_181]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_181]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	... 19 common frames omitted
+
+2019-06-19 15:47:48.924  INFO 5636 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-06-19 15:47:48.941  INFO 5636 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-19 15:47:48.945 ERROR 5636 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8081 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8081, or configure this application to listen on another port.
+
+2019-06-19 15:47:48.953  INFO 5636 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 15:48:44.766  INFO 2528 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 15:48:45.187  INFO 2528 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 2528 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 15:48:45.188  INFO 2528 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 15:48:46.926  WARN 2528 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 15:48:47.220  INFO 2528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8800 (http)
+2019-06-19 15:48:47.224  INFO 2528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 15:48:47.224  INFO 2528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 15:48:47.226  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 15:48:47.227  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 15:48:47.227  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 15:48:47.227  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 15:48:47.228  INFO 2528 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 15:48:47.254  INFO 2528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 15:48:47.254  INFO 2528 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2062 ms
+2019-06-19 15:48:47.508  INFO 2528 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 15:48:47.627  WARN 2528 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 15:48:47.662  INFO 2528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 15:48:47.699  INFO 2528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8800 (http) with context path '/fyswj'
+2019-06-19 15:48:47.701  INFO 2528 --- [restartedMain] com.Swj01Application                     : Started Swj01Application in 2.564 seconds (JVM running for 255.926)
+2019-06-19 15:48:47.707  INFO 2528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-19 15:48:58.646  INFO 2528 --- [http-nio-8800-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-19 15:48:58.648  INFO 2528 --- [http-nio-8800-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-19 15:48:58.666  INFO 2528 --- [http-nio-8800-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2019-06-19 15:50:56.025  INFO 2528 --- [RMI TCP Connection(2)-192.168.217.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-19 15:50:56.029  INFO 2528 --- [RMI TCP Connection(2)-192.168.217.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:55:05.024  INFO 3256 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 3256 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 16:55:05.040  INFO 3256 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 16:55:05.211  INFO 3256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-19 16:55:05.211  INFO 3256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-19 16:55:08.706  WARN 3256 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 16:55:10.126  INFO 3256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8800 (http)
+2019-06-19 16:55:10.173  INFO 3256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 16:55:10.173  INFO 3256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 16:55:10.204  INFO 3256 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 16:55:10.204  INFO 3256 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 16:55:10.204  INFO 3256 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 16:55:10.220  INFO 3256 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 16:55:11.268  INFO 3256 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 16:55:11.470  INFO 3256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 16:55:11.471  INFO 3256 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6260 ms
+2019-06-19 16:55:12.305  INFO 3256 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:55:12.882  WARN 3256 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 16:55:13.038  INFO 3256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 16:55:13.116 ERROR 3256 --- [restartedMain] org.apache.catalina.util.LifecycleBase   : Failed to start component [Connector[HTTP/1.1-8800]]
+
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) [spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at com.Swj01Application.main(Swj01Application.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_181]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_181]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	... 19 common frames omitted
+
+2019-06-19 16:55:13.381  INFO 3256 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-06-19 16:55:13.402  INFO 3256 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-19 16:55:13.418 ERROR 3256 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8800 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8800, or configure this application to listen on another port.
+
+2019-06-19 16:55:13.418  INFO 3256 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:55:44.719  INFO 3460 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 3460 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 16:55:44.719  INFO 3460 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 16:55:44.844  INFO 3460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-19 16:55:44.844  INFO 3460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-19 16:55:48.260  WARN 3460 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 16:55:49.566  INFO 3460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8800 (http)
+2019-06-19 16:55:49.613  INFO 3460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 16:55:49.613  INFO 3460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 16:55:49.628  INFO 3460 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 16:55:49.628  INFO 3460 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 16:55:49.628  INFO 3460 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 16:55:49.628  INFO 3460 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 16:55:50.674  INFO 3460 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 16:55:50.941  INFO 3460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 16:55:50.941  INFO 3460 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6097 ms
+2019-06-19 16:55:51.783  INFO 3460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:55:52.342  WARN 3460 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 16:55:52.484  INFO 3460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 16:55:52.564 ERROR 3460 --- [restartedMain] org.apache.catalina.util.LifecycleBase   : Failed to start component [Connector[HTTP/1.1-8800]]
+
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) [spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at com.Swj01Application.main(Swj01Application.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_181]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_181]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_181]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_181]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_181]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	... 19 common frames omitted
+
+2019-06-19 16:55:52.580  INFO 3460 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-06-19 16:55:52.595  INFO 3460 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-19 16:55:52.611 ERROR 3460 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8800 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8800, or configure this application to listen on another port.
+
+2019-06-19 16:55:52.626  INFO 3460 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:56:23.992  INFO 1992 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 1992 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 16:56:23.992  INFO 1992 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 16:56:24.101  INFO 1992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-19 16:56:24.101  INFO 1992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-19 16:56:27.455  WARN 1992 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 16:56:28.798  INFO 1992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8008 (http)
+2019-06-19 16:56:28.829  INFO 1992 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 16:56:28.829  INFO 1992 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 16:56:28.860  INFO 1992 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 16:56:28.860  INFO 1992 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 16:56:28.860  INFO 1992 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 16:56:28.860  INFO 1992 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 16:56:29.922  INFO 1992 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 16:56:30.078  INFO 1992 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 16:56:30.078  INFO 1992 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5977 ms
+2019-06-19 16:56:30.908  INFO 1992 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:56:31.470  WARN 1992 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 16:56:31.642  INFO 1992 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 16:56:31.744  INFO 1992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8008 (http) with context path '/fyswj'
+2019-06-19 16:56:31.744  INFO 1992 --- [restartedMain] com.Swj01Application                     : Started Swj01Application in 8.439 seconds (JVM running for 9.652)
+2019-06-19 16:57:23.497  INFO 1992 --- [RMI TCP Connection(2)-192.168.217.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-19 16:57:23.622  INFO 1992 --- [RMI TCP Connection(2)-192.168.217.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:57:47.979  INFO 5820 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 5820 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 16:57:47.994  INFO 5820 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 16:57:48.119  INFO 5820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-19 16:57:48.119  INFO 5820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-19 16:57:51.317  WARN 5820 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 16:57:52.761  INFO 5820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2019-06-19 16:57:52.807  INFO 5820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 16:57:52.807  INFO 5820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 16:57:52.839  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 16:57:52.839  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 16:57:52.839  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 16:57:52.839  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 16:57:53.885  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 16:57:54.104  INFO 5820 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 16:57:54.104  INFO 5820 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5985 ms
+2019-06-19 16:57:54.837  INFO 5820 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:57:55.430  WARN 5820 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 16:57:55.571  INFO 5820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 16:57:55.680  INFO 5820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path '/fyswj'
+2019-06-19 16:57:55.680  INFO 5820 --- [restartedMain] com.Swj01Application                     : Started Swj01Application in 8.607 seconds (JVM running for 9.89)
+2019-06-19 16:58:16.357  INFO 5820 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:58:16.973  INFO 5820 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 5820 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 16:58:16.973  INFO 5820 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 16:58:19.347  WARN 5820 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 16:58:19.721  INFO 5820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2019-06-19 16:58:19.721  INFO 5820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 16:58:19.721  INFO 5820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 16:58:19.721  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 16:58:19.721  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 16:58:19.721  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 16:58:19.721  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 16:58:19.721  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 16:58:19.737  INFO 5820 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 16:58:19.737  INFO 5820 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2749 ms
+2019-06-19 16:58:20.018  INFO 5820 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:58:20.314  WARN 5820 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 16:58:20.408  INFO 5820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 16:58:20.454  INFO 5820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path '/fyswj'
+2019-06-19 16:58:20.470  INFO 5820 --- [restartedMain] com.Swj01Application                     : Started Swj01Application in 3.56 seconds (JVM running for 34.667)
+2019-06-19 16:58:20.470  INFO 5820 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-19 16:58:21.871  INFO 3448 --- [main] com.Swj01ApplicationTests                : Starting Swj01ApplicationTests on USER-20180922CY with PID 3448 (started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 16:58:21.886  INFO 3448 --- [main] com.Swj01ApplicationTests                : No active profile set, falling back to default profiles: default
+2019-06-19 16:58:25.693  WARN 3448 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 16:58:27.581  INFO 3448 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:58:28.721  WARN 3448 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 16:58:29.002  INFO 3448 --- [main] com.Swj01ApplicationTests                : Started Swj01ApplicationTests in 8.329 seconds (JVM running for 12.445)
+2019-06-19 16:58:29.471  INFO 3448 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:59:33.012  INFO 5820 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:59:33.529  INFO 5820 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 5820 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 16:59:33.529  INFO 5820 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 16:59:35.182  WARN 5820 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 16:59:35.432  INFO 5820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2019-06-19 16:59:35.432  INFO 5820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 16:59:35.432  INFO 5820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 16:59:35.432  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 16:59:35.432  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 16:59:35.432  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 16:59:35.432  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 16:59:35.432  INFO 5820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 16:59:35.447  INFO 5820 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 16:59:35.447  INFO 5820 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1918 ms
+2019-06-19 16:59:35.645  INFO 5820 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:59:35.782  WARN 5820 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 16:59:35.840  INFO 5820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 16:59:35.874  INFO 5820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path '/fyswj'
+2019-06-19 16:59:35.875  INFO 5820 --- [restartedMain] com.Swj01Application                     : Started Swj01Application in 2.393 seconds (JVM running for 110.07)
+2019-06-19 16:59:35.879  INFO 5820 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-19 16:59:42.247  INFO 5820 --- [RMI TCP Connection(2)-192.168.217.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-19 16:59:42.262  INFO 5820 --- [RMI TCP Connection(2)-192.168.217.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:59:48.533  INFO 6012 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 6012 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 16:59:48.533  INFO 6012 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 16:59:48.642  INFO 6012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-19 16:59:48.642  INFO 6012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-19 16:59:51.965  WARN 6012 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 16:59:53.315  INFO 6012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2019-06-19 16:59:53.346  INFO 6012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 16:59:53.361  INFO 6012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 16:59:53.377  INFO 6012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 16:59:53.377  INFO 6012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 16:59:53.377  INFO 6012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 16:59:53.377  INFO 6012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 16:59:54.439  INFO 6012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 16:59:54.668  INFO 6012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 16:59:54.668  INFO 6012 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6026 ms
+2019-06-19 16:59:55.386  INFO 6012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 16:59:55.994  WARN 6012 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 16:59:56.135  INFO 6012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 16:59:56.242  INFO 6012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path '/fyswj'
+2019-06-19 16:59:56.242  INFO 6012 --- [restartedMain] com.Swj01Application                     : Started Swj01Application in 8.445 seconds (JVM running for 9.514)
+2019-06-19 17:00:58.611  INFO 6012 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:00:59.940  INFO 6012 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 6012 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 17:00:59.940  INFO 6012 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 17:01:03.244  INFO 5556 --- [main] com.Swj01ApplicationTests                : Starting Swj01ApplicationTests on USER-20180922CY with PID 5556 (started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 17:01:03.244  INFO 5556 --- [main] com.Swj01ApplicationTests                : No active profile set, falling back to default profiles: default
+2019-06-19 17:01:03.696  WARN 6012 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 17:01:05.176  INFO 6012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2019-06-19 17:01:05.192  INFO 6012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 17:01:05.286  INFO 6012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 17:01:05.286  INFO 6012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 17:01:05.286  INFO 6012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 17:01:05.286  INFO 6012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 17:01:05.286  INFO 6012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 17:01:05.286  INFO 6012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 17:01:05.301  INFO 6012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 17:01:05.301  INFO 6012 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5361 ms
+2019-06-19 17:01:05.653  INFO 6012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:01:05.778  WARN 6012 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 17:01:05.809  INFO 6012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 17:01:06.199  INFO 6012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path '/fyswj'
+2019-06-19 17:01:06.231  INFO 6012 --- [restartedMain] com.Swj01Application                     : Started Swj01Application in 6.618 seconds (JVM running for 79.506)
+2019-06-19 17:01:06.246  INFO 6012 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-19 17:01:08.582  WARN 5556 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 17:01:10.668  INFO 5556 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:01:11.714  WARN 5556 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 17:01:11.933  INFO 5556 --- [main] com.Swj01ApplicationTests                : Started Swj01ApplicationTests in 11.712 seconds (JVM running for 14.14)
+2019-06-19 17:01:12.305  INFO 5556 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:01:21.483  INFO 6012 --- [RMI TCP Connection(2)-192.168.217.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-19 17:01:21.483  INFO 6012 --- [RMI TCP Connection(2)-192.168.217.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:02:05.715  INFO 5864 --- [main] com.Swj01ApplicationTests                : Starting Swj01ApplicationTests on USER-20180922CY with PID 5864 (started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 17:02:05.731  INFO 5864 --- [main] com.Swj01ApplicationTests                : No active profile set, falling back to default profiles: default
+2019-06-19 17:02:09.447  WARN 5864 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 17:02:11.429  INFO 5864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:02:12.718  WARN 5864 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 17:02:12.999  INFO 5864 --- [main] com.Swj01ApplicationTests                : Started Swj01ApplicationTests in 8.032 seconds (JVM running for 9.473)
+2019-06-19 17:02:13.514  INFO 5864 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:04:55.209  INFO 4312 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 4312 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 17:04:55.209  INFO 4312 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 17:04:55.365  INFO 4312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-19 17:04:55.365  INFO 4312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-19 17:05:00.435  WARN 4312 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 17:05:02.012  INFO 4312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2019-06-19 17:05:02.075  INFO 4312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 17:05:02.075  INFO 4312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 17:05:02.107  INFO 4312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 17:05:02.107  INFO 4312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 17:05:02.107  INFO 4312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 17:05:02.107  INFO 4312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 17:05:03.214  INFO 4312 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 17:05:03.480  INFO 4312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 17:05:03.480  INFO 4312 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8115 ms
+2019-06-19 17:05:04.713  INFO 4312 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:05:07.070  WARN 4312 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 17:05:07.262  INFO 4312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 17:05:07.387  INFO 4312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path '/fyswj'
+2019-06-19 17:05:07.403  INFO 4312 --- [restartedMain] com.Swj01Application                     : Started Swj01Application in 13.224 seconds (JVM running for 15.443)
+2019-06-19 17:05:12.676  INFO 4312 --- [RMI TCP Connection(2)-192.168.217.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-19 17:05:12.691  INFO 4312 --- [RMI TCP Connection(2)-192.168.217.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:06:26.377  INFO 4804 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 4804 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 17:06:26.393  INFO 4804 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 17:06:26.487  INFO 4804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-19 17:06:26.487  INFO 4804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-19 17:06:29.809  WARN 4804 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 17:06:31.386  INFO 4804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2019-06-19 17:06:31.434  INFO 4804 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 17:06:31.434  INFO 4804 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 17:06:31.465  INFO 4804 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 17:06:31.465  INFO 4804 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 17:06:31.465  INFO 4804 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 17:06:31.465  INFO 4804 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 17:06:32.495  INFO 4804 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 17:06:32.995  INFO 4804 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 17:06:32.995  INFO 4804 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6508 ms
+2019-06-19 17:06:33.853  INFO 4804 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:06:34.431  WARN 4804 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 17:06:34.587  INFO 4804 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 17:06:34.759  INFO 4804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path '/fyswj'
+2019-06-19 17:06:34.774  INFO 4804 --- [restartedMain] com.Swj01Application                     : Started Swj01Application in 9.085 seconds (JVM running for 10.098)
+2019-06-19 17:06:39.860  INFO 4804 --- [RMI TCP Connection(2)-192.168.217.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-19 17:06:39.875  INFO 4804 --- [RMI TCP Connection(2)-192.168.217.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:07:41.842  INFO 852 --- [restartedMain] com.Swj01Application                     : Starting Swj01Application on USER-20180922CY with PID 852 (E:\workspace-sts-3.7.3.RELEASE\Swj_01\target\classes started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 17:07:41.842  INFO 852 --- [restartedMain] com.Swj01Application                     : No active profile set, falling back to default profiles: default
+2019-06-19 17:07:41.936  INFO 852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-19 17:07:41.936  INFO 852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-19 17:07:45.040  WARN 852 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 17:07:46.352  INFO 852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2019-06-19 17:07:46.400  INFO 852 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-19 17:07:46.400  INFO 852 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-19 17:07:46.415  INFO 852 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-19 17:07:46.415  INFO 852 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-06-19 17:07:46.415  INFO 852 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-19 17:07:46.415  INFO 852 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-19 17:07:47.476  INFO 852 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-06-19 17:07:47.728  INFO 852 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/fyswj]  : Initializing Spring embedded WebApplicationContext
+2019-06-19 17:07:47.728  INFO 852 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5792 ms
+2019-06-19 17:07:48.524  INFO 852 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:07:49.197  WARN 852 --- [restartedMain] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 17:07:49.337  INFO 852 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-19 17:07:49.446  INFO 852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path '/fyswj'
+2019-06-19 17:07:49.446  INFO 852 --- [restartedMain] com.Swj01Application                     : Started Swj01Application in 8.447 seconds (JVM running for 9.497)
+2019-06-19 17:08:10.694  INFO 852 --- [RMI TCP Connection(2)-192.168.217.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-19 17:08:10.709  INFO 852 --- [RMI TCP Connection(2)-192.168.217.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:09:20.287  INFO 3460 --- [main] com.Swj01ApplicationTests                : Starting Swj01ApplicationTests on USER-20180922CY with PID 3460 (started by Administrator in E:\workspace-sts-3.7.3.RELEASE\Swj_01)
+2019-06-19 17:09:20.303  INFO 3460 --- [main] com.Swj01ApplicationTests                : No active profile set, falling back to default profiles: default
+2019-06-19 17:09:24.000  WARN 3460 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2019-06-19 17:09:26.201  INFO 3460 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-19 17:09:26.810  WARN 3460 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-19 17:09:27.060  INFO 3460 --- [main] com.Swj01ApplicationTests                : Started Swj01ApplicationTests in 7.835 seconds (JVM running for 9.367)
+2019-06-19 17:09:27.543  INFO 3460 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
